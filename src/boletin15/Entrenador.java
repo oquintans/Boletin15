@@ -13,20 +13,27 @@ public class Entrenador extends Seleccion {
 
     private String ideFederacion;
 
-    public Entrenador(String ideFederacion) {
-        this.ideFederacion = ideFederacion;
+    public Entrenador() {
+
+        super();
     }
 
     public Entrenador(String n, String a, int id, int e, String ideFederacion) {
         super(n, a, id, e);
         this.ideFederacion = ideFederacion;
     }
-    
-    public void dirigirPartido(){
-        
+
+    public void dirigirPartido() {
+
     }
-    public void dirigirEntrenamiento(){
-        
+
+    public void dirigirEntrenamiento() {
+
+    }
+
+    @Override
+    public void viajar() {
+        System.out.println("viaxan os xogadores");
     }
 
 }

@@ -10,12 +10,12 @@ package boletin15;
  * @author Oscar
  */
 public class Masajista extends Seleccion {
+
     private String titulacion;
     private int añosExp;
 
-    public Masajista(String titulacion, int añosExp) {
-        this.titulacion = titulacion;
-        this.añosExp = añosExp;
+    public Masajista() {
+        super();
     }
 
     public Masajista(String titulacion, int añosExp, String n, String a, int id, int e) {
@@ -23,5 +23,9 @@ public class Masajista extends Seleccion {
         this.titulacion = titulacion;
         this.añosExp = añosExp;
     }
-    
+
+    @Override
+    public void viajar() {
+        System.out.println("viaxan os xogadores");
+    }
 }

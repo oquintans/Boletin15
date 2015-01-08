@@ -29,9 +29,9 @@ public class Seleccion {
     }
     
     public void concentrarse(){
-        
+        System.out.println("concentrase a seleccion");
     }
     public void viajar(){
-        
+        System.out.println("viaxa a seleccion");
     }
 }

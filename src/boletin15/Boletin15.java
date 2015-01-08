@@ -15,7 +15,22 @@ public class Boletin15 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Seleccion selec = new Seleccion();
+        Futbolista fut = new Futbolista();
+        Entrenador ent = new Entrenador();
+        Masajista mas = new Masajista();
+        
+        selec.concentrarse();
+        fut.concentrarse();
+        ent.concentrarse();
+        mas.concentrarse();
+        
+        selec.viajar();
+        fut.viajar();
+        ent.viajar();
+        mas.viajar();
+        
+
     }
-    
+
 }
