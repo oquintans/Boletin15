@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package boletin15;
 
-/**
- *
- * @author Oscar
- */
 public class Masajista extends Seleccion {
 
     private String titulacion;
@@ -21,6 +12,22 @@ public class Masajista extends Seleccion {
     public Masajista(String titulacion, int añosExp, String n, String a, int id, int e) {
         super(n, a, id, e);
         this.titulacion = titulacion;
+        this.añosExp = añosExp;
+    }
+
+    public String getTitulacion() {
+        return titulacion;
+    }
+
+    public void setTitulacion(String titulacion) {
+        this.titulacion = titulacion;
+    }
+
+    public int getAñosExp() {
+        return añosExp;
+    }
+
+    public void setAñosExp(int añosExp) {
         this.añosExp = añosExp;
     }
 

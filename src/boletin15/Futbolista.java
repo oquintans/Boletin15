@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package boletin15;
 
-/**
- *
- * @author Oscar
- */
 public class Futbolista extends Seleccion {
 
     private int dorsal;
@@ -22,6 +13,22 @@ public class Futbolista extends Seleccion {
         super(n, a, id, e);
         dorsal = dor;
         demarcacion = dem;
+    }
+
+    public int getDorsal() {
+        return dorsal;
+    }
+
+    public void setDorsal(int dorsal) {
+        this.dorsal = dorsal;
+    }
+
+    public int getDemarcacion() {
+        return demarcacion;
+    }
+
+    public void setDemarcacion(int demarcacion) {
+        this.demarcacion = demarcacion;
     }
 
     @Override
