@@ -37,7 +37,7 @@ public class Entrenador extends Seleccion {
 
     @Override
     public String toString() {
-        return (super.toString() + "Entrenador{" + "ideFederacion=" + ideFederacion + '}');
+        return super.toString() + "Entrenador{" + "ideFederacion=" + ideFederacion + '}';
     }
 
 }

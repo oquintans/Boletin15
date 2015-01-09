@@ -38,7 +38,7 @@ public class Futbolista extends Seleccion {
 
     @Override
     public String toString() {
-        return "Futbolista{" + "dorsal=" + dorsal + ", demarcacion=" + demarcacion + '}';
+        return super.toString() + "Futbolista{" + "dorsal=" + dorsal + ", demarcacion=" + demarcacion + '}';
     }
 
 }

@@ -61,7 +61,7 @@ public class Seleccion {
 
     @Override
     public String toString() {
-        return "Seleccion{" + "nombre=" + nombre + ", apellidos=" + apellidos + ", id=" + id + ", edad=" + edad + '}';
+        return super.toString() + "Seleccion{" + "nombre=" + nombre + ", apellidos=" + apellidos + ", id=" + id + ", edad=" + edad + '}';
 
     }
 

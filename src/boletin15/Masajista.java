@@ -38,7 +38,7 @@ public class Masajista extends Seleccion {
 
     @Override
     public String toString() {
-        return "Masajista{" + "titulacion=" + titulacion + ", a\u00f1osExp=" + añosExp + '}';
+        return super.toString() + "Masajista{" + "titulacion=" + titulacion + ", a\u00f1osExp=" + añosExp + '}';
     }
 
 }
