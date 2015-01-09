@@ -36,4 +36,9 @@ public class Entrenador extends Seleccion {
         System.out.println("viaxan os xogadores");
     }
 
+    @Override
+    public String toString() {
+        return (super.toString() + "Entrenador{" + "ideFederacion=" + ideFederacion + '}');
+    }
+
 }

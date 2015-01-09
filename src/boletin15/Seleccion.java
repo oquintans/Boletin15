@@ -27,11 +27,19 @@ public class Seleccion {
         this.id = id;
         edad = e;
     }
-    
-    public void concentrarse(){
+
+    public void concentrarse() {
         System.out.println("concentrase a seleccion");
     }
-    public void viajar(){
+
+    public void viajar() {
         System.out.println("viaxa a seleccion");
     }
+
+    @Override
+    public String toString() {
+        return "Seleccion{" + "nombre=" + nombre + ", apellidos=" + apellidos + ", id=" + id + ", edad=" + edad + '}';
+
+    }
+
 }

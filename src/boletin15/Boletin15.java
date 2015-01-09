@@ -19,17 +19,16 @@ public class Boletin15 {
         Futbolista fut = new Futbolista();
         Entrenador ent = new Entrenador();
         Masajista mas = new Masajista();
-        
+
         selec.concentrarse();
         fut.concentrarse();
         ent.concentrarse();
         mas.concentrarse();
-        
+
         selec.viajar();
         fut.viajar();
         ent.viajar();
         mas.viajar();
-        
 
     }
 

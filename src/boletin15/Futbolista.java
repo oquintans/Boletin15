@@ -23,9 +23,15 @@ public class Futbolista extends Seleccion {
         dorsal = dor;
         demarcacion = dem;
     }
-    
+
     @Override
     public void viajar() {
         System.out.println("viaxan os xogadores");
     }
+
+    @Override
+    public String toString() {
+        return "Futbolista{" + "dorsal=" + dorsal + ", demarcacion=" + demarcacion + '}';
+    }
+
 }

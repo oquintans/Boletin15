@@ -28,4 +28,10 @@ public class Masajista extends Seleccion {
     public void viajar() {
         System.out.println("viaxan os xogadores");
     }
+
+    @Override
+    public String toString() {
+        return "Masajista{" + "titulacion=" + titulacion + ", a\u00f1osExp=" + añosExp + '}';
+    }
+
 }
