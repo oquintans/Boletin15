@@ -1,5 +1,10 @@
 package boletin15;
 
+/**
+ * Superclase de las clases Entrenador,futbolista y masajista.
+ * @author oquintansocampo
+ * @version 1.0
+ */
 public class Seleccion {
 
     private String nombre;
@@ -19,10 +24,18 @@ public class Seleccion {
         edad = e;
     }
 
+    /**
+     * Recibe el valor de la variable nombre.
+     * @return nombre.
+     */
     public String getNombre() {
         return nombre;
     }
 
+    /**
+     * Modifica el valor de la variable nombre.
+     * @param nombre nombre de la seleccion.
+     */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
