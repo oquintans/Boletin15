@@ -26,7 +26,7 @@ public class Seleccion {
 
     /**
      * Recibe el valor de la variable nombre.
-     * @return nombre.
+     * @return 
      */
     public String getNombre() {
         return nombre;
